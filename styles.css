@@ -8,7 +8,10 @@ h3 {
   font-family: "Nunito", sans-serif;
   text-align: center;
 }
-
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
 h2 {
   font-size: 72px;
   line-height: 2;
