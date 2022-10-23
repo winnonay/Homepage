@@ -1,0 +1,34 @@
+:root {
+  --primary-color: #f4c0db;
+  --secondary-color: #ddc9ea;
+}
+h1,
+h2,
+h3 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 72px;
+}
+h3 {
+  color: #69a0b6;
+  font-style: italic;
+}
+.hero {
+  background: var(--secondary-color);
+  margin: 60px auto;
+  max-width: 100%;
+}
+.navigate {
+  display: flex;
+  justify-content: center;
+}
+.contact-info {
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin: 20px;
+  text-decoration: none;
+  background: var(--primary-color);
+}
