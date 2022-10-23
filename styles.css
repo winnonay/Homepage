@@ -24,6 +24,7 @@ h3 {
   background: var(--secondary-color);
   margin: 60px auto;
   max-width: 100%;
+  padding: 160px 0;
 }
 .navigate {
   display: flex;
