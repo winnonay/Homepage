@@ -11,6 +11,7 @@ h3 {
 
 h2 {
   font-size: 72px;
+  line-height: 2;
 }
 h3 {
   color: #69a0b6;
@@ -20,6 +21,7 @@ h3 {
   background: var(--secondary-color);
   margin: 60px auto;
   max-width: 100%;
+  padding: 160px 20px;
 }
 .navigate {
   display: flex;
