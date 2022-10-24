@@ -23,6 +23,7 @@ h3 {
 
 p {
   line-height: 2;
+  font-family: "Nunito", sans-serif;
 }
 
 .hero {
@@ -61,8 +62,16 @@ p {
   background: var(--primary-color);
   color: white;
 }
+.about-section {
+  padding: 30px 20px;
+  border-radius: 4px;
+}
 @media (max-width: 576) {
   .container {
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
