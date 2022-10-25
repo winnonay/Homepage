@@ -37,26 +37,21 @@ p {
   display: flex;
   justify-content: center;
 }
-.navigation-links {
-  display: flex;
-  justify-content: space-around;
-}
+
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
 }
 
-.contact-info {
+.button-info {
   border-radius: 4px;
   padding: 20px 15px;
-  margin: 20px;
   text-decoration: none;
   background: var(--primary-color);
   color: white;
 }
 .primary-link {
-  justify-content: left;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -64,7 +59,7 @@ p {
   color: white;
 }
 .content-container {
-  padding: 30px 10px;
+  padding: 40px 20px;
   border-radius: 4px;
 }
 .content {
