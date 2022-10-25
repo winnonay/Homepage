@@ -64,12 +64,13 @@ p {
 }
 .content {
   margin: 20px;
+  padding: 30px 20px;
 }
 .content p {
   font-size: 18px;
   line-height: 1.5;
 }
-.title {
+.app-title {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
