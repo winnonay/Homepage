@@ -28,20 +28,9 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
   margin: 60px auto;
   max-width: 100%;
-  padding: 160px 20px;
-}
-.navigate {
-  display: flex;
-  justify-content: center;
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
+  padding: 20px 10px;
 }
 
 .button-info {
@@ -53,13 +42,22 @@ p {
 }
 .primary-link {
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 10px;
   text-decoration: none;
   background: var(--primary-color);
   color: white;
 }
+.cloud {
+  color: var(--sub-color);
+  text-decoration: none;
+  border: var(--sub-color);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 15px 10px;
+}
+
 .content-container {
-  padding: 40px 20px;
+  padding: 30px 20px;
   border-radius: 4px;
 }
 .content {
