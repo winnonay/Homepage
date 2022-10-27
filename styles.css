@@ -90,7 +90,7 @@ footer {
   font-family: "Playfair Display", serif;
   font-size: 20px;
   color: white;
-  padding: 20px 50px;
+  padding: 20px 15px;
   background: var(--primary-color);
   border-radius: 8px;
   text-decoration: none;
@@ -98,7 +98,7 @@ footer {
 footer .social-links a {
   margin: 0 20px;
   font-size: 18px;
-  background: var(--link-color);
+  background: #a8d1df;
   padding: 10px 15px;
   border-radius: 50%;
 }
@@ -111,8 +111,5 @@ footer .social-links a {
     text-align: center;
     margin: 0 auto;
     padding: 0;
-  }
-  h1 {
-    font-size: 48px;
   }
 }
