@@ -2,6 +2,7 @@
   --primary-color: #f4c0db;
   --secondary-color: #dfdaf0;
   --sub-color: #69a0b6;
+  --link-color: #c2c2c2;
 }
 
 h1,
@@ -18,7 +19,7 @@ h2 {
 }
 h3 {
   color: var(--sub-color);
-  font-style: italic;
+
   font-size: 20px;
 }
 
@@ -75,19 +76,43 @@ p {
 .skill {
   font-size: 16px;
 }
+footer {
+  margin: 30px 20px;
+}
 
+.inquiry {
+  color: white;
+  font-size: 20px;
+  font-style: none;
+  font-family: "Playfair Display", serif;
+}
+.email-link {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  color: white;
+  padding: 20px 50px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  text-decoration: none;
+}
+footer .social-links a {
+  margin: 0 20px;
+  font-size: 18px;
+  background: var(--link-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+.app-button:hover {
+  background: linear-gradient(white, var(--secondary-color));
+}
 @media (max-width: 576) {
-  .container {
+  content-container {
     text-align: center;
-  }
-  .content {
-    text-align: center;
+    margin: 0 auto;
     padding: 0;
-    margin: 0;
   }
-  .content-container {
-    text-align: center;
-    padding: 0;
-    margin: 0;
+  h1 {
+    font-size: 48px;
   }
 }
