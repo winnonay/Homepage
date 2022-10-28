@@ -33,7 +33,9 @@ p {
   max-width: 100%;
   padding: 20px 10px;
 }
-
+navbar.container {
+  margin: 30px 20px;
+}
 .button-info {
   border-radius: 4px;
   padding: 20px 15px;
